@@ -1,0 +1,12 @@
+# Ensure shell scripts keep LF
+*.sh text eol=lf
+# Jupyter notebooks
+*.ipynb text
+# CSV files
+*.csv text
+# Python files
+*.py text
+# All other files (default)
+* text=auto
+# Large pickle files tracked via Git LFS
+*.pkl filter=lfs diff=lfs merge=lfs -text

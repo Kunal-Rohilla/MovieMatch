@@ -1,0 +1,21 @@
+# if using VScode
+.vscode
+
+# add secret keys or API keys here
+configs/secrets.yaml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+*.pkl   # Ignore pickle files
+.ipynb_checkpoints/
+*.db
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+artifacts/similarity.pkl
